@@ -1,0 +1,42 @@
+# Bionic Dog 2.0 - Requirements
+# Compatible with Python 3.13
+
+# Core Flask application
+Flask>=2.3.3,<3.0
+requests>=2.31.0
+
+# Voice Control Dependencies (Optional - install separately if needed)
+# Note: Some audio packages may need system dependencies
+# SpeechRecognition>=3.10.0
+# pyttsx3>=2.90
+
+# Computer Vision Dependencies (Optional - install separately if needed)
+# opencv-python>=4.8.0
+# numpy>=1.24.0
+# Pillow>=10.0.0
+
+# Communication and Async
+aiohttp>=3.9.0
+redis>=5.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+psutil>=5.9.0
+
+# Development Dependencies
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Basic requirements for core functionality
+Werkzeug>=2.3.0
+Jinja2>=3.1.0
+click>=8.0.0
+itsdangerous>=2.1.0
+MarkupSafe>=2.1.0
+
+# Optional AI/ML Dependencies (for future enhancements)
+# tensorflow>=2.13.0
+# torch>=2.0.1
+# transformers>=4.33.0
